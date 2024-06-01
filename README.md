@@ -1,8 +1,46 @@
-# React + Vite
+# Simple ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple ToDo application built with React.js using Vite.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project is a basic ToDo application that allows users to manage their daily tasks. Users can add new tasks, mark them as completed, and delete them when they are done. The app is built with React.js and uses Vite as the build tool for fast and optimized development.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Simple and clean user interface
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/itsoumysanta16/todos-app.git
+    cd todo
+    ```
+
+2. **Install dependencies:**
+    Make sure you have Node.js installed, then run:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server, run:
+```bash
+npm run dev
